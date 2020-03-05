@@ -9,5 +9,6 @@ LABEL "repository"="https://github.com/Vukan-Markovic/Chat-rooms"
 LABEL "homepage"="https://github.com/Vukan-Markovic/Chat-rooms"
 LABEL "maintainer"="Vukan-Markovic <vukan.markovic97@gmail.com>"
 
-COPY entrypoint.sh /
+ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
