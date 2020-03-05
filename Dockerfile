@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM debian:10.1
 
 LABEL "com.github.actions.name"="Android Github Action"
 LABEL "com.github.actions.description"="Android Github Action that build Android project, set up JDK 1.8, run unit tests and build debug APK."
