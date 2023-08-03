@@ -13,7 +13,7 @@ List related PRs against other branches:
 branch | PR
 ------ | ------
 other_pr_production | [link]()
-other_pr_master | [link]()
+other_pr_master | [linuk]()
 
 
 ## Todos
