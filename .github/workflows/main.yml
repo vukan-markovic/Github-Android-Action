@@ -1,4 +1,4 @@
-name: Android Github Action
+name: ⁹Android Github Action
 
 on:
   pull_request:
